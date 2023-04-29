@@ -1,6 +1,6 @@
 shared:
-    # image: node:8
-    image: rockylinux:8.7
+    image: node:8
+    # image: rockylinux:8.7 # これもgitを求められ無理だった
 jobs:
     main:
         requires: [~pr, ~commit]

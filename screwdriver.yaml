@@ -13,4 +13,4 @@ jobs:
     promote:
         requires: [publish]
         steps:
-            - promote: sd-cmd promote foo/bar 1.0.1 stable
+            - promote: sd-cmd promote foo/bar 1.0.0 stable

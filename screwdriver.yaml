@@ -1,5 +1,6 @@
 shared:
-    image: node:8
+    # image: node:8
+    image: rockylinux:8.7
 jobs:
     main:
         requires: [~pr, ~commit]
